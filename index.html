@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='reset.css' rel='stylesheet' />
+    <link href='style.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form id='student'>
+            <fieldset>
+                <label>Student Name</label>
+                <br>
+                <input type='text' name='student' id='name'>
+                <br>
+
+                <label>Course</label>
+               <br>
+                <select id='course'>
+                    <option>math</option>
+                    <option>english</option>
+                    <option>arabic</option>
+                    <option>science</option>
+                    <option>art</option>
+                </select>
+               
+              <br>
+
+                <input type='submit' name='submit' onclick="newstudent.render();
+                ">
+             <br>
+            </fieldset>
+            </form>
+      </main>
+      <div id='table'>
+
+      </div>
+           <footer>
+            <script src='app.js'>
+            </script>
+            </footer>
+</body>
+
+</html>

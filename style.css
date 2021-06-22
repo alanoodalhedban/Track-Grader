@@ -1,0 +1,17 @@
+body{
+    background-image:url('school.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+#student{
+    background-color: rgba(114, 104, 211, 0.8);
+    
+    margin-left: 400px;
+    padding: 100px;
+    padding-right: 0%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    color: aliceblue;
+}
